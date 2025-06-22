@@ -55,14 +55,14 @@
     /* Responsive video container for vertical video */
     .video-container {
       position: relative;
-      padding-bottom: 177.78%; /* vertical aspect ratio */
-      height: 0;
-      overflow: hidden;
-      max-width: 315px;
+      width: 315px;          /* fixed width */
+      height: 560px;         /* fixed height matching your video */
       margin: 1rem auto 2rem;
       border-radius: 8px;
+      overflow: hidden;
       box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
     }
+    
     .video-container iframe {
       position: absolute;
       top: 0; left: 0;
@@ -71,6 +71,7 @@
       border-radius: 8px;
       box-shadow: none;
     }
+
     p {
       margin-bottom: 1.5rem;
     }
