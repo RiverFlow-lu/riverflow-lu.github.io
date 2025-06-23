@@ -66,6 +66,19 @@
       background: #000;
       aspect-ratio: 16 / 9;
     }
+    /* Horizontal video container */
+    .video-horizontal {
+      position: relative;
+      width: 100%;
+      max-width: 560px; /* wider for horizontal */
+      aspect-ratio: 16 / 9; /* landscape mode */
+      margin: 1.5rem auto 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
+      overflow: hidden;
+      background: #000;
+    }
+
     /* Vertical video container for Transcendance */
     .video-vertical {
       position: relative;
@@ -121,7 +134,7 @@
     ></iframe>
   </div>
   <h2>🎥 Video: Minett Video presented by Claire</h2>
-  <div class="video-vertical">
+  <div class="video-horizontal">
     <iframe 
     src="https://www.youtube.com/embed/xTXIGuYR208" 
       frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen
