@@ -1,1 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RiverFlow Lu | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+    h1, h2 {
+      color: #007acc;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    h1 {
+      border-bottom: 3px solid #007acc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 1.75rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover, a:focus {
+      text-decoration: underline;
+      color: #004a80;
+    }
+    ul {
+      padding-left: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+      background: #e6f0fa;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      list-style: disc inside;
+    }
+    /* Containers for iframes */
+    .video-container,
+    .slides-container {
+      position: relative;
+      width: 100%;
+      max-width: 560px;
+      margin: 1.5rem auto 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
+      overflow: hidden;
+      background: #000;
+      aspect-ratio: 16 / 9;
+    }
+    /* Horizontal video container */
+    .video-horizontal {
+      position: relative;
+      width: 100%;
+      max-width: 560px; /* wider for horizontal */
+      aspect-ratio: 16 / 9; /* landscape mode */
+      margin: 1.5rem auto 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
+      overflow: hidden;
+      background: #000;
+    }
 
+    /* Vertical video container for Transcendance */
+    .video-vertical {
+      position: relative;
+      width: 100%;
+      max-width: 315px; /* narrower for vertical */
+      aspect-ratio: 9 / 16; /* portrait mode */
+      margin: 1.5rem auto 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
+      overflow: hidden;
+      background: #000;
+    }
+    iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+    /* Contact section tweaks */
+    h2:last-of-type {
+      margin-top: 3rem;
+    }
+    /* Small screens adjustment */
+    @media (max-width: 400px) {
+      body {
+        padding: 1rem 1rem;
+        font-size: 16px;
+      }
+      .video-container,
+      .slides-container,
+      .video-vertical {
+        max-width: 100%;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <h1>RiverFlow Lu Portfolio</h1>
+
+  <p>
+    Storytelling meets code. This portfolio brings together my passion for tech — from fintech and blockchain to AI and app development — with a communicator’s mindset. Whether it’s through visuals, words, or interactive media, I translate complex ideas into content that connects.
+  </p>
+
+  <h2>🎥 Video: Transcendance project showcase</h2>
+  <p>This video published on LinkedIn offers an immersive look into the Transcendance project, final coding project at Ecole 42, highlighting its core vision, modules and technologies</p>
+  <div class="video-vertical">
+    <iframe 
+    src="https://www.youtube.com/embed/V2-2Ol94Vvk" 
+      frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen
+      title="Transcendance Project"
+    ></iframe>
+  </div>
+  <h2>🎥 Video: Minett Video presented by Claire</h2>
+    <p>
+    This Power Director video was shot in Ellergrönn for a school project featuring Claire Masset
+  </p>
+  <div class="video-horizontal">
+    <iframe 
+    src="https://www.youtube.com/embed/xTXIGuYR208" 
+      frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen
+      title="Minett Tour"
+    ></iframe>
+  </div>
+  <h2>🎥 Video: French homework Video presented by Nilla</h2>
+      <p>
+Shot in Kleinbettingen for a school project, this Capcut video features Nilla Ferrari imagining her rise to stardom by telling the story of her life, inspired by the style of the ‘Tout est vrai’ show.  </p>
+  <div class="video-horizontal">
+    <iframe 
+    src="https://www.youtube.com/embed/ivPqfBUJcN0" 
+      frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen
+      title="Minett Tour"
+    ></iframe>
+  </div>
+  <h2>🎥 Video: Fureur de Lire Video by Vincent</h2>
+      <p>
+This Powerdirector video was shot using pictures of lego scenes telling the story of the book chosen for the Fureur de Lire Creativity Contest </p>
+  <div class="video-horizontal">
+    <iframe 
+    src="https://www.youtube.com/embed/ToTL9-AkFok" 
+      frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen
+      title="Minett Tour"
+    ></iframe>
+  </div>
+ 
+  
+  <h2>📄 Content Writing</h2>
+  <p>
+    This presentation provides an in-depth analysis of a single press article on artificial intelligence, unpacking its key arguments, pros, and cons. It showcases the ability to critically evaluate media content and communicate nuanced views on AI’s impact.
+  </p>
+
+  <!-- First slide deck -->
+  <div class="slides-container">
+    <iframe
+      src="https://docs.google.com/presentation/d/e/2PACX-1vQO2T38Sxcslfoj6nnHrNA5fGoEiowVUlPt049LV4z0RF0K_z9h1HgvpGX_sxuHBAixr0oTfTddQMTO/pubembed?start=true&loop=true&delayms=3000"
+      allowfullscreen
+      mozallowfullscreen
+      webkitallowfullscreen
+      title="AI Press Article Analysis"
+    ></iframe>
+  </div>
+
+  <p>
+    Designed to introduce essential programming languages, this presentation reflects my hands-on experience in software development and digital education. It aims to equip learners with basic information about programming.
+  </p>
+
+  <!-- Second slide deck -->
+  <div class="slides-container">
+    <iframe
+      src="https://docs.google.com/presentation/d/e/2PACX-1vRPmx25NMBSBvHFrzQIwCPKvVDAyNyLhagHkujSN4S4zy5EvemI0sO3RfRZkHT3YQ/pubembed?start=true&loop=true&delayms=3000"
+      allowfullscreen
+      mozallowfullscreen
+      webkitallowfullscreen
+      title="Programming Languages Intro"
+    ></iframe>
+  </div>
+
+  <p>
+    Focused on the principles and practical uses of blockchain technology, this deck was created to educate and inspire learners about decentralized systems. It blends technical detail with engaging visuals to support effective digital learning.
+  </p>
+
+  <!-- Third slide deck -->
+  <div class="slides-container">
+    <iframe
+      src="https://docs.google.com/presentation/d/e/2PACX-1vTeiV4eE0lX8NW2qEie3UVY1y6NtjbsXhIfl6Btk8yVaXWfDAuWobq5RBX7DP4SJGcPVLDRksqqy6om/pubembed?start=true&loop=true&delayms=3000"
+      allowfullscreen
+      mozallowfullscreen
+      webkitallowfullscreen
+      title="Blockchain Technology Principles"
+    ></iframe>
+  </div>
+
+  <h2>🙋‍♀️ About me</h2>
+  <ul>
+     <a href="https://www.canva.com/design/DAGrJ-kt-TQ/HhVTtu6FsHMOXqpq6xIj4A/view?utm_content=DAGrJ-kt-TQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h652071f99c" target="_blank" rel="noopener noreferrer">Check out my CV
+</a>
+  </ul>
+
+  <h2>📞 If you like my work - Let's collaborate </h2>
+  <a href="https://www.linkedin.com/in/veroniqueriviere/" target="_blank" rel="noopener noreferrer">Join me on LinkedIn
+</a>
+  <p>Drop me an Email: <a href="mailto:Riverflow.lu@gmail.com">Riverflow.lu@gmail.com</a></p>
+</body>
+</html>
