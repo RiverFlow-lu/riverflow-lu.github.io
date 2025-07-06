@@ -66,25 +66,22 @@
       background: #000;
       aspect-ratio: 16 / 9;
     }
-    /* Horizontal video container */
     .video-horizontal {
       position: relative;
       width: 100%;
-      max-width: 560px; /* wider for horizontal */
-      aspect-ratio: 16 / 9; /* landscape mode */
+      max-width: 560px;
+      aspect-ratio: 16 / 9;
       margin: 1.5rem auto 3rem;
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
       overflow: hidden;
       background: #000;
     }
-
-    /* Vertical video container for Transcendance */
     .video-vertical {
       position: relative;
       width: 100%;
-      max-width: 315px; /* narrower for vertical */
-      aspect-ratio: 9 / 16; /* portrait mode */
+      max-width: 315px;
+      aspect-ratio: 9 / 16;
       margin: 1.5rem auto 3rem;
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
@@ -99,11 +96,9 @@
       border: none;
       border-radius: 8px;
     }
-    /* Contact section tweaks */
     h2:last-of-type {
       margin-top: 3rem;
     }
-    /* Small screens adjustment */
     @media (max-width: 400px) {
       body {
         padding: 1rem 1rem;
@@ -115,22 +110,34 @@
         max-width: 100%;
       }
     }
+
     .certs-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
-}
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
 
-.cert-card {
-  background: #e6f0fa;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 122, 204, 0.2);
-  flex: 1 1 250px;
-  min-width: 200px;
-}
+    .cert-card {
+      background: #e6f0fa;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 122, 204, 0.2);
+      flex: 1 1 250px;
+      min-width: 200px;
+    }
 
+    .cert-card ul {
+      padding-left: 1rem;
+      margin: 0;
+    }
+
+    .cert-card li {
+      list-style: disc inside;
+      background: none;
+      padding: 0;
+      margin: 0.25rem 0;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
 </head>
@@ -138,29 +145,26 @@
   <h1>RiverFlow Lu Digital Finance Portfolio</h1>
 
   <p>
-  With 20 years of deep fintech expertise, I’ve navigated high-pressure trading floors in New York and London, managed proprietary investment strategies, and overseen complex risk management frameworks across Luxembourg and Brussels.
+    With 20 years of deep fintech expertise, I’ve navigated high-pressure trading floors in New York and London, managed proprietary investment strategies, and overseen complex risk management frameworks across Luxembourg and Brussels.
   </p>
 
-  <p>My hands-on experience spans market dynamics, regulatory environments, and advanced financial technologies. </p>
-  <p>Paired with a passion for blockchain, AI, and app development, I bring a unique communicator’s lens—transforming complex financial and technical concepts into clear, compelling narratives that engage diverse audiences.  </p>
+  <p>My hands-on experience spans market dynamics, regulatory environments, and advanced financial technologies.</p>
+  <p>Paired with a passion for blockchain, AI, and app development, I bring a unique communicator’s lens—transforming complex financial and technical concepts into clear, compelling narratives that engage diverse audiences.</p>
 
   <h2>🎥 Video: Transcendance project showcase</h2>
-  <p>This video published on LinkedIn offers an immersive look into the Transcendance project, final coding project at Ecole 42, highlighting its core vision, modules and technologies</p>
+  <p>This video published on LinkedIn offers an immersive look into the Transcendance project, final coding project at Ecole 42, highlighting its core vision, modules and technologies.</p>
   <div class="video-vertical">
     <iframe 
-    src="https://www.youtube.com/embed/V2-2Ol94Vvk" 
+      src="https://www.youtube.com/embed/V2-2Ol94Vvk" 
       frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen
       title="Transcendance Project"
     ></iframe>
   </div>
- 
 
   <h2>🎥 Video: Blockchain Basics Presentation</h2>
-    <p>
+  <p>
     Focused on the principles and practical uses of blockchain technology, this deck was created to educate and inspire learners about decentralized systems. It blends technical detail with engaging visuals to support effective digital learning.
   </p>
-
-  <!-- Third slide deck -->
   <div class="slides-container">
     <iframe
       src="https://docs.google.com/presentation/d/e/2PACX-1vTeiV4eE0lX8NW2qEie3UVY1y6NtjbsXhIfl6Btk8yVaXWfDAuWobq5RBX7DP4SJGcPVLDRksqqy6om/pubembed?start=true&loop=true&delayms=3000"
@@ -172,35 +176,37 @@
   </div>
 
   <h2>📜 Certifications & Trainings</h2>
-<div class="certs-container">
-  <div class="cert-card">
-    <strong>AI</strong><br>
-    CFTE, Jun 2024
-  </div>
-  <div class="cert-card">
-    <strong>Blockchain & Digital Assets</strong><br>
-    <a href="blockchain technology.pdf" target="_blank" rel="noopener noreferrer">Blockchain technology</a>
-    <a href="crypto assets and tokenization.pdf" target="_blank" rel="noopener noreferrer">Crypto assets & Tokenization</a>
+  <div class="certs-container">
+    <div class="cert-card">
+      <p><strong>AI</strong><br>CFTE – Jun 2024</p>
+    </div>
 
-  </div>
-  <div class="cert-card">
-    <strong>Finance</strong><br>
-    <a href="digital entrepreneurship.pdf" target="_blank" rel="noopener noreferrer">Digital Entrepreneurship</a>
-    <a href="finops.pdf" target="_blank" rel="noopener noreferrer">Fin Ops</a>
+    <div class="cert-card">
+      <p><strong>Blockchain & Digital Assets</strong></p>
+      <ul>
+        <li><a href="blockchain technology.pdf" target="_blank" rel="noopener noreferrer">Blockchain Technology</a></li>
+        <li><a href="crypto assets and tokenization.pdf" target="_blank" rel="noopener noreferrer">Crypto Assets & Tokenization</a></li>
+      </ul>
+    </div>
 
+    <div class="cert-card">
+      <p><strong>Finance</strong></p>
+      <ul>
+        <li><a href="digital entrepreneurship.pdf" target="_blank" rel="noopener noreferrer">Digital Entrepreneurship</a></li>
+        <li><a href="finops.pdf" target="_blank" rel="noopener noreferrer">FinOps</a></li>
+      </ul>
+    </div>
   </div>
-  <!-- Add more as needed -->
-</div>
 
   <h2>🙋‍♀️ About me</h2>
   <ul>
-     <a href="https://www.canva.com/design/DAGruHrnUbs/t2K5-TIYvjULo400qRpsYQ/view?utm_content=DAGruHrnUbs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he8c8360d5f" target="_blank" rel="noopener noreferrer">Check out my CV
-</a>
+    <li>
+      <a href="https://www.canva.com/design/DAGruHrnUbs/t2K5-TIYvjULo400qRpsYQ/view?utm_content=DAGruHrnUbs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he8c8360d5f" target="_blank" rel="noopener noreferrer">Check out my CV</a>
+    </li>
   </ul>
 
-  <h2>📞 If you like my work - Let's collaborate </h2>
-  <a href="https://www.linkedin.com/in/veroniqueriviere/" target="_blank" rel="noopener noreferrer">Join me on LinkedIn
-</a>
+  <h2>📞 If you like my work - Let's collaborate</h2>
+  <a href="https://www.linkedin.com/in/veroniqueriviere/" target="_blank" rel="noopener noreferrer">Join me on LinkedIn</a>
   <p>Drop me an Email: <a href="mailto:Riverflow.lu@gmail.com">Riverflow.lu@gmail.com</a></p>
 </body>
 </html>
